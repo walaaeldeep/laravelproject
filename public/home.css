@@ -1,0 +1,593 @@
+@media screen and (max-height: 450px) and(min-width:1199px){
+    body{
+        background-color:white;
+    
+    }
+    }
+    .navbar{
+        background-color: rgb(218, 2, 2);
+        margin-bottom: 0px;
+        padding-top: 32px;
+        margin-top: 0px;
+        height: 120px;
+      
+    
+    }
+    .cola{
+     
+        width: 220px;
+    }
+    .nav-link{
+        color: white;
+        font-size: larger;
+    }
+    .nav{
+        background-color: rgb(8, 3, 3);
+        margin: 0px;
+        padding-bottom: 4px;
+       
+    }
+    .btn{
+        width: 70px;
+        height: 50px;
+      }
+    .form-control{
+        margin-left: 70px ;
+        width: 600px;
+        height: 40px;
+    
+    }
+    
+    #nt{
+        background-color: rgb(218, 2, 2);
+      }
+      .sidebar {
+        height: 100%; /* 100% Full-height */
+        width: 0; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 2; /* Stay on top */
+        top: 66px;
+        right:  0;
+        background-color: #080808; /* Black*/
+        overflow-y: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+      }
+      
+      /* The sidebar links */
+      .sidebar a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      /* When you mouse over the navigation links, change their color */
+      .sidebar a:hover {
+        color: #f1f1f1;
+      }
+      
+      /* Position and style the close button (top right corner) */
+      .sidebar .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-top: 50px;
+      }
+      
+      /* The button used to open the sidebar */
+      .openbtn {
+        font-size: 20px;
+        cursor: pointer;
+        background-color: #111;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+      }
+      
+      .openbtn:hover {
+        background-color: #444;
+      }
+      
+      /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+      #main {
+        transition: margin-top .5s; /* If you want a transition effect */
+        padding: 20px;
+      }
+      
+      /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+      @media screen and (max-height: 450px) {
+        .sidebar {padding-top: 15px;}
+        .sidebar a {font-size: 18px;}
+      }
+      .fa, .fas{
+        margin-left: 190px;
+        font-size: larger;
+        color: #444;
+        background-color: white;
+        border-radius: 50%;
+      }
+      .cole{
+    
+        margin-bottom:80px;
+        margin-left: 40px;
+      }
+      .hh{
+        border-radius: 50%;
+      }
+      .kl{
+        border-radius: 50%;
+        width: 409px;
+    
+        height: 209px;
+      
+       
+      }
+      .ds{
+       border-radius: 50%;
+       width: 299px;
+       margin: 9px;
+       height: 200px;
+      
+        
+    
+    
+      }
+    .km{
+      border-radius: 50%;
+      width: 294px;
+      margin: 2px;
+      height: 267px;
+    }
+      .ra{
+        border-radius: 50%;
+        width: 289px;
+        margin: 9px;
+        height: 200px;
+        
+    
+        
+      }
+      #jaon{
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0;
+        margin-bottom: 90px;
+        list-style: none
+        
+      }
+      .lzz{
+        border-radius: 50%;
+        width: 189px;
+        margin: 9px;
+        height: 200px;
+      
+      
+      }
+      .bg{
+        margin-bottom: 30px;
+      }
+     
+      .lzo{
+        border-radius: 50%;
+        width: 289px;
+      margin-right: 34px;
+      height: 200px;
+      }
+      .carousel-inner{
+        margin-left: 50px;
+        margin-right: 50px;
+        width: 1200px;
+        height: 300px;
+    }  
+    #fa{
+        margin-left: 10px;
+        font-size: x-large;
+      }
+      #fe{
+        font-size: x-large;
+      }  
+      fieldset{
+        text-align: center;
+        margin-right: 100px;
+        padding-left: 70px;
+      }
+      
+      .login-form{
+        width: 420px;
+        height: 500px;
+        padding: 20px 10px;
+        background-color: rgba(206, 206, 218, 0.856);
+        box-shadow:  inset 2px 2px 30px darkgrey;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 5px;
+        margin-right: 200px;
+        margin-top: 70px;
+      
+        
+      }
+      .form{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0px;
+        
+        background-color: rgba(231, 214, 214, 0.548);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        z-index: 103;
+    
+      }
+      .tt{
+        width: 78px;
+        margin-left: 150px;
+        margin-bottom: 77px;
+      }
+      .wl{
+        height:50px;
+        width: 90px;
+        margin-top:9px;
+        text-align: center;
+        background-color: rgb(218, 2, 2);
+        color: #f0e9e9;
+        padding:15px
+      }
+    
+    button{
+      font-size: large;
+      background-color: red;
+      color: aliceblue;
+    }
+     
+    a{
+        
+      color: #0e0d0d;
+     
+    }
+    
+    .card-group{
+    margin-bottom: 44px;
+    }
+    .bnvgeF {
+      flex: 1 1 0%;
+      padding: 20px;
+      -webkit-box-pack: justify;
+      justify-content: space-between;
+      max-width: 1440px;
+      margin: auto;
+  }
+  .iCLNbW {
+      display: flex;
+      box-sizing: border-box;
+      padding: 20px 0px;
+  }
+  .bBVwRb {
+      flex: 1 1 0%;
+      margin: 15px auto 25px;
+  }
+  .vOmpc {
+      border-top: 1px solid rgb(226, 229, 241);
+      padding: 24px 20px;
+      display: flex;
+      gap: 16px;
+      -webkit-box-pack: justify;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      -webkit-box-align: center;
+      align-items: center;
+  }
+  .QMAmn {
+      padding-bottom: 50px;
+  }
+  
+  
+  .QMAmn {
+      padding-bottom: 50px;
+  }
+  .FJFOd {
+      border-top: 1px solid rgb(226, 229, 241);
+      flex-flow: column wrap;
+      background-color: white;
+  }
+  
+  
+  .iCLNbW {
+      display: flex;
+      box-sizing: border-box;
+      padding: 20px 0px;
+  }
+  .bBVwRb {
+      flex: 1 1 0%;
+      margin: 15px auto 25px;
+  }
+  .gpvhWM {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      height: 100vh;
+  }
+  .bBkeFE {
+      background-color: rgb(254, 0, 0);
+      position: relative;
+      z-index: 60;
+  }
+  article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+      display: block;
+  }
+  html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+      box-sizing: border-box;
+  }
+  article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+      display: block;
+  }
+  ol, ul {
+      list-style: none;
+  }
+  
+  blockquote, q {
+      quotes: none;
+  }
+  blockquote:before, blockquote:after, q:before, q:after {
+      content: '';
+      content: none;
+  }
+  table {
+      border-collapse: collapse;
+      border-spacing: 0;
+  }
+  * {
+      box-sizing: border-box;
+  }
+  html {
+      font-size: 12px;
+  }
+  @media only screen and (min-width: 992px) {
+      html {
+          font-size: 13px;
+      }
+  }
+  body {
+      min-height: 100vh;
+  }
+  body.locked {
+      overflow: hidden;
+  }
+  strong, b {
+      font-weight: bold;
+  }
+  a {
+      text-decoration: none;
+      cursor: pointer;
+      color: inherit;
+  }
+  *:focus {
+      outline: none;
+  }
+  img {
+      max-width: 100%;
+      display: block;
+  }
+  input, button, textarea, select {
+      font: inherit;
+      color: inherit;
+      padding: 0;
+      margin: 0;
+      border: 0;
+      box-sizing: border-box;
+      border-radius: 0;
+  }
+  input, textarea, select {
+      border: 1px solid #e4f7db;
+      font-size: 16px;
+  }
+  @media only screen and (min-width: 992px) {
+      input, textarea, select {
+          font-size: 1rem;
+      }
+  }
+  input ::-ms-clear {
+      display: none;
+  }
+  button {
+      background-color: transparent;
+      cursor: pointer;
+  }
+  input ::-ms-clear {
+      display: none;
+  }
+  
+  button {
+      background-color: transparent;
+      cursor: pointer;
+  }
+  
+  button[disabled] {
+      cursor: default;
+  }
+  
+  * {
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      -webkit-tap-highlight-color: transparent;
+  }
+  
+  /* Proxima Nova (English) */
+  @font-face {
+      font-family: "Proxima Nova";
+      src: url("https://f.nooncdn.com/s/app/com/common/fonts/Proxima-Nova-300.eot?#iefix");
+      src: url("https://f.nooncdn.com/s/app/com/common/fonts/Proxima-Nova-300.eot?#iefix") format("eot"), url("https://f.nooncdn.com/s/app/com/common/fonts/Proxima-Nova-300.woff2") format("woff2"), url("https://f.nooncdn.com/s/app/com/common/fonts/Proxima-Nova-300.woff") format("woff"), url("https://f.nooncdn.com/s/app/com/common/fonts/Proxima-Nova-300.ttf") format("truetype");
+      font-weight: 300;
+      font-style: normal;
+  }
+  @font-face {
+      font-family: "Proxima Nova";
+      src: url("https://f.nooncdn.com/s/app/com/common/fonts/proxima-v2/Proxima-Nova-Regular.eot?#iefix");
+      src: url("https://f.nooncdn.com/s/app/com/common/fonts/proxima-v2/Proxima-Nova-Regular.eot?#iefix") format("eot"), url("https://f.nooncdn.com/s/app/com/common/fonts/proxima-v2/Proxima-Nova-Regular.woff2") format("woff2"), url("https://f.nooncdn.com/s/app/com/common/fonts/proxima-v2/Proxima-Nova-Regular.woff") format("woff"), url("https://f.nooncdn.com/s/app/com/common/fonts/proxima-v2/Proxima-Nova-Regular.ttf") format("truetype");
+      font-weight: normal;
+      font-style: normal;
+  }
+  @font-face {
+      font-family: "Proxima Nova";
+      src: url("https://f.nooncdn.com/s/app/com/common/fonts/proxima-v2/Proxima-Nova-Semibold.eot?#iefix");
+      src: url("https://f.nooncdn.com/s/app/com/common/fonts/proxima-v2/Proxima-Nova-Semibold.eot?#iefix") format("eot"), url("https://f.nooncdn.com/s/app/com/common/fonts/proxima-v2/Proxima-Nova-Semibold.woff2") format("woff2"), url("https://f.nooncdn.com/s/app/com/common/fonts/proxima-v2/Proxima-Nova-Semibold.woff") format("woff"), url("https://f.nooncdn.com/s/app/com/common/fonts/proxima-v2/Proxima-Nova-Semibold.ttf") format("truetype");
+      font-weight: 600;
+      font-style: normal;
+  }
+  @font-face {
+      font-family: "Proxima Nova";
+      src: url("https://f.nooncdn.com/s/app/com/common/fonts/proxima-v2/Proxima-Nova-Bold.eot?#iefix");
+      src: url("https://f.nooncdn.com/s/app/com/common/fonts/proxima-v2/Proxima-Nova-Bold.eot?#iefix") format("eot"), url("https://f.nooncdn.com/s/app/com/common/fonts/proxima-v2/Proxima-Nova-Bold.woff2") format("woff2"), url("https://f.nooncdn.com/s/app/com/common/fonts/proxima-v2/Proxima-Nova-Bold.woff") format("woff"), url("https://f.nooncdn.com/s/app/com/common/fonts/proxima-v2/Proxima-Nova-Bold.ttf") format("truetype");
+      font-weight: bold;
+      font-style: normal;
+  }
+  @font-face {
+      font-family: 'Cairo';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Cairo'), local('Cairo-Regular'), url(https://fonts.gstatic.com/s/cairo/v2/KHiPzIiPko_Fw3pWntR2CoDGDUGfDkXyfkzVDelzfFk.woff2) format('woff2');
+      unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+E0FF, U+EFFD, U+F000, U+FB50-FDFF, U+FE80-FEFC;
+  }
+  @font-face {
+      font-family: 'Cairo';
+      font-style: normal;
+      font-weight: 600;
+      src: local('Cairo SemiBold'), local('Cairo-SemiBold'), url(https://fonts.gstatic.com/s/cairo/v2/MI6TrIXLGD9aHguHYHeGURkAz4rYn47Zy2rvigWQf6w.woff2) format('woff2');
+      unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+E0FF, U+EFFD, U+F000, U+FB50-FDFF, U+FE80-FEFC;
+  }
+  
+  html, body {
+      line-height: 1.4;
+      color: #404553;
+      font-size: 14px;
+      background-color: #f0eaea;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      min-width: 375px;
+  }
+  input, textarea, select {
+      border: 1px solid #e61b1b;
+      font-size: 16px;
+  }
+  body {
+      font-family: 'Proxima Nova', 'Helvetica Neue', Arial, sans-serif !important;
+      min-height: 100vh;
+  }
+  
+  html[dir=rtl] body {
+      font-family: Cairo, Tahoma, sans-serif !important;
+  }
+  .cqLBOY {
+      display: flex;
+      flex-direction: column;
+      background: rgb(226, 24, 24);
+      border-top: 1px solid rgb(226, 229, 241);
+  }
+  .FJFOd {
+      border-top: 1px solid rgb(226, 229, 241);
+      flex-flow: column wrap;
+      background-color: white;
+  }
+  .siteWidthContainer {
+      padding: 0 15px;
+      margin: 0 auto;
+      max-width: 768px;
+      box-sizing: border-box;
+  }
+  @media only screen and (min-width: 768px) {
+      .siteWidthContainer {
+          padding: 0 25px;
+          min-width: 768px;
+          max-width: 1440px;
+      }
+  }
+  @media only screen and (min-width: 992px) {
+      .siteWidthContainer {
+          padding: 0 45px;
+      }
+  }
+  
+  strong, b {
+      font-weight: bold;
+  }
+  .fcvUlh {
+      flex: 1 1 0%;
+      place-content: center space-around;
+  }
+  
+  .fcvUlh {
+      flex: 1 1 0%;
+      place-content: center space-around;
+  }
+  .kNOXwo {
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: rgb(15, 15, 15);
+      margin-bottom: 8px;
+  }
+  
+  * {
+      -webkit-tap-highlight-color: rgba(240, 16, 16, 0);
+      -webkit-tap-highlight-color: transparent;
+  }
+  html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+      box-sizing: border-box;
+  }
+  .bltMDC {
+      display: flex;
+      -webkit-box-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      align-items: center;
+  }
+  .vOmpc {
+      border-top: 1px solid rgb(19, 18, 18);
+      padding: 24px 20px;
+      display: flex;
+      gap: 16px;
+      -webkit-box-pack: justify;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      -webkit-box-align: center;
+      align-items: center;
+  }
+  .iCLNbW {
+      /* display: flex; */
+      box-sizing: border-box;
+  }
+  .QMAmn {
+      padding-bottom: 50px;
+  }
+  .hjDlqp {
+      position: fixed;
+      inset: 0px;
+      display: none;
+      -webkit-box-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      align-items: center;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(5, 5, 5, 0.5);
+      z-index: 999;
+  }

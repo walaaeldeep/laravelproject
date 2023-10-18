@@ -1,0 +1,31 @@
+form{
+   border-color: bisque;
+   box-sizing: 500px;
+  margin-right: 140px;
+  background-color: rgb(232, 236, 240);
+   margin-left: 410px;
+   
+}
+#fe{
+    font-size: 480px;
+    margin-left: 540px;
+    background-color: rgb(232, 236, 240);
+    color: red;
+    border-radius: 50%;
+}
+  
+
+
+
+span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+   
+    color: #000;
+}
+.btn{
+    margin-left:173px ;
+    width: 410px;
+    background-color: red;
+    color: aliceblue;
+}
