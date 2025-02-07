@@ -516,7 +516,7 @@
                             <fieldset ng-app="" ng-init="price-0;qty-0">
                  
                 
-             producet:  
+          
                                     
                                 <select ng-model="price"   >
                                     <option value="470">طقم بلوزه </option>

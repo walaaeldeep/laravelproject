@@ -11,6 +11,28 @@ body{
 
 }
 }
+.wl{
+  font-size: large;
+  background-color: red;
+  color: aliceblue;
+   position: absolute;
+   text-align: center;
+   margin-right: 20px;
+}
+button{
+  font-size: large;
+  background-color: red;
+  color: aliceblue;
+   position: absolute;
+   text-align: center;
+   margin-right: 40px;
+ }
+.btn{
+  background-color: rgb(218, 2, 2);
+  color: aliceblue;
+  margin-left: 70px 
+
+}
 .login-form{
   width: 420px;
   height: 500px;

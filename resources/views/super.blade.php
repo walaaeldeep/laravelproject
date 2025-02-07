@@ -63,10 +63,10 @@
                   <a class="nav-link active" aria-current="page" href="{{route('index')}}">الالكتروني</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="{{route('shop')}}">نسائيه</a>
+                  <a class="nav-link" href="{{route('shop')}}">حريمي</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="{{('dashboard')}}">رجاله</a>
+                  <a class="nav-link" href="{{('dashboard')}}">رجالي</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{route('super')}}">سوبرماركت</a>
@@ -507,14 +507,14 @@
                                     
                                 <select ng-model="price"   >
                                     <option value="470">طقم بلوزه </option>
-                                    <option value="650">بنطلون جينس
-                                    <option value="540"  >كردانل +بنطلون فماش</option>
+                                    <option value="50">شكولات kikat</option>
+                                    <option value="540"  >مكرونة إلبو ريجاتي</option>
                                     <option value="500" >جيب</option>
                                     <option value="600" >بلوزه +بنطلون قماش</option>
-                                    <option value="340">بنطلون جنسي+جكيت</option>
+                                    <option value="340"> مسحوق غسيل بنسيم اللافندر 1 كجم </option>
                                     <option value="300"  >فستان </option>
-                                    <option value="4000"  >جكيت+بنطلون</option>
-                                    <option value="3000" >ملابس جيم</option>
+                                    <option value="400"  >شاي ليبتون بالعلامة الصفراء، 100 كيس، 200 جرام</option>
+                                    <option value="3000" >لبن المراعي كامل الدسم - 2.85 لتر</option>
                                     <option value="7000" >ميكروويف</option>
                                     <option value="3000">تكييف</option>
                                     <option value="  7000"  >غساله اوتوماتيك</option>
@@ -556,8 +556,10 @@
                             
                             
                             
-                                
-                   <button  class="wl">طلب اوردر</button>
+                             <a href="{{route('homee')}}">
+                             <button  class="wl">طلب اوردر</button>
+                             </a>
+                
                              
                                
                            

@@ -66,10 +66,11 @@
                   <a class="nav-link active" aria-current="page" href="{{route('index')}}">الالكترونات</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="{{route('shop')}}">نسائيه</a>
+                  <a class="nav-link" href="{{route('shop')}}">حريمي</a>
+                  
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="{{('dashboard')}}">رجاله</a>
+                  <a class="nav-link" href="{{('dashboard')}}">رجالي</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{route('super')}}">سوبر ماركت</a>
@@ -797,7 +798,8 @@ producet:
         
     <select ng-model="price"   >
         <option value="470">طقم بلوزه </option>
-        <option value="650">بنطلون جينس
+        <option value="650">بنطلون جينس</option>
+        <option value="340"  >تشراات </option>
         <option value="540"  >كردانل +بنطلون فماش</option>
         <option value="500" >جيب</option>
         <option value="600" >بلوزه +بنطلون قماش</option>
@@ -826,9 +828,10 @@ producet:
     <select ng-model="size" >
         <option  value="X- s" >  SCreen </option>
         <option value="S"> بتطلونات</option>
-        <option value="M xl"> تشراتات</option>
+        <option value="M xl s"> تشراتات</option>
         <option value="Large m x-s"> بتطلونات</option>
         <option value="XL"> بلوزات</option>
+        <option value="xl s m">جيب</option>
         <option value="xl s m">جيكت</option>
     </select>
    
@@ -843,9 +846,9 @@ producet:
 
     ?> 
    
-    
+   <a href="{{route('homee')}}">
 <button  class="wl">طلب اوردر</button>
- 
+   </a>
    
 
       </fieldset>
